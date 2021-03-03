@@ -100,9 +100,8 @@ public class PracticaLab2 {
                     
 
                 }
-            break;
-        }
-        Scanner sc = new Scanner(System.in);
+                
+            
            System.out.println("Digite como quiere ordenar el arreglo");
            System.out.println("1. Cedula");
            System.out.println("2. Edad");     
@@ -141,5 +140,5 @@ public class PracticaLab2 {
                
                    
            }
+        }
     }
-}
