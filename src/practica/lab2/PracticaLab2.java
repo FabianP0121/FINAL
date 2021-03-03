@@ -92,7 +92,7 @@ public class PracticaLab2 {
                     arreglo1[i] = new Persona(cedula, nombre, edad);
 
                 }
-                for (int j = 0; j < arreglo1.length; j++) {
+                for(int j = 0; j < arreglo1.length; j++) {
                     System.out.println("-----------------------");
                     System.out.println("Cedula   nombre   edad  ");
                     System.out.println(arreglo1[j].getcedula() + "   " + arreglo1[j].getnombre() + "   " + arreglo1[j].getedad());
@@ -102,8 +102,44 @@ public class PracticaLab2 {
                 }
             break;
         }
+        Scanner sc = new Scanner(System.in);
            System.out.println("Digite como quiere ordenar el arreglo");
            System.out.println("1. Cedula");
            System.out.println("2. Edad");     
+           int op1= sc.nextInt();
+           switch (op1){
+               case 1:
+                   sc.nextLine();
+                   System.out.println("Digite el metodo para ordenar por Cedula");
+                   System.out.println("1. Burbuja");
+                   System.out.println("2. MergeSort");     
+                   int op2= sc.nextInt();
+           switch (op2){
+               case 1:
+                   sc.nextLine();
+                   System.out.println("Eligio burbuja");
+               case 2:
+                   sc.nextLine();
+                   System.out.println("Eligio Mergesort");
+       
+           }
+               case 2:
+                   sc.nextLine();
+                   System.out.println("Digite el metodo para ordenar por Edad");
+                   System.out.println("1. Burbuja");
+                   System.out.println("2. MergeSort");     
+                   int op3= sc.nextInt();
+                   switch (op3){
+               case 1:
+                   sc.nextLine();
+                   System.out.println("Eligio burbuja");
+               case 2:
+                   sc.nextLine();
+                   System.out.println("Eligio Mergesort");
+       
+           }
+               
+                   
+           }
     }
 }
