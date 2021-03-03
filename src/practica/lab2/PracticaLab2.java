@@ -102,6 +102,7 @@ public class PracticaLab2 {
                 }
             break;
         }
-
+           System.out.println("Digite como quiere ordenar el arreglo");
+           System.out.println("1. Cedula");
     }
 }
